@@ -82,3 +82,6 @@ sns.pairplot(iris)
 #Facetgrid using seaborn
 g=sns.FacetGrid(iris,col='Species_name')
 g=g.map(sns.kdeplot, 'Sepal_length')
+
+
+
