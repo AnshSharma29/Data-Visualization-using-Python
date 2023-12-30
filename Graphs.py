@@ -2,6 +2,7 @@ import pandas as pd
 import numpy as np
 import matplotlib as mpl
 import matplotlib.pyplot as plt
+
 %matplotlib inline
 #%matplotlib inline sets the backend of matplotlib to the 'inline' backend
 
