@@ -16,6 +16,7 @@ print(iris.head())
 print(iris.tail())
 
 #heavy coding ----> moderate coding ----> no coding
+
 #Scatter plot using matplotlib 
 fig,ax=plt.subplots()
 
@@ -29,13 +30,17 @@ ax.set_ylabel('Sepal_width')
 
 #Line chart using Matplotlib
 columns=iris.columns.drop(['Species_name'])
+
 #create x data
 x_data=range(0, iris.shape[0])
+
 #create figure and axis
 fig,ax=plt.subplots()
+
 #plot each column
 for column in columns:
     ax.plot(x_data, iris[column], label=column)
+
 #set title and legend
 ax.set_title('Iris Dataset')
 ax.legend()
