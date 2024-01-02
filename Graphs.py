@@ -53,6 +53,7 @@ iris.drop(['Species_name'], axis=1).plot.line(title='Iris Dataset')
 
 #making scatter plot using seaborn library
 import seaborn as sns
+
 sns.scatterplot(x='Sepal_length', y='Sepal_width', data=iris)
 
 #scatter plot using seaborn with modifications
