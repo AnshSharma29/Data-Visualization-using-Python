@@ -57,7 +57,7 @@ plt.show()
 
 # In[4]:
 
-
+#Q3
 # Extract the relevant columns
 prevexp = df['prevexp']
 salary = df['salary']
@@ -76,7 +76,7 @@ plt.show()
 
 # In[5]:
 
-
+#Q4
 # Count the occurrences of each education level
 education_counts = df['educ'].value_counts()
 
@@ -92,7 +92,7 @@ plt.show()
 
 # In[6]:
 
-
+#Q5
 import sweetviz as sv
 
 # Create a data comparison report
