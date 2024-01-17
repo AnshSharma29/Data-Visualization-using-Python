@@ -3,7 +3,9 @@
 #import libraries 
 import numpy as np
 import pandas as pd
-import seaborn as sb
+import matplotlib as mpl
+import matplotlib.pyplot as plt
+%matplotlib inline
 
 #import dataset
 df=read_csv('')
