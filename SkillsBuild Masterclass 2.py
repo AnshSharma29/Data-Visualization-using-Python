@@ -23,6 +23,8 @@ titanic_report.show_html(titanic.html)
 d=dtale.show(titanic)
 d.open_browser()
 
+
+
 #import folium
 import folium
 
