@@ -28,6 +28,7 @@ d.open_browser()
 #import folium
 import folium
 
+
 # Coordinates for New York City
 latitude, longitude = 40.7128, -74.0060
 
@@ -36,6 +37,7 @@ m = folium.Map(location=[latitude, longitude], zoom_start=12)
 
 # Add a marker for New York City
 folium.Marker([latitude, longitude], popup='New York City').add_to(m)
+
 
 #save the map to an HTML file
 m.save('map.html')
