@@ -9,15 +9,12 @@ import matplotlib.pyplot as plt
 
 #%matplotlib inline sets the backend of matplotlib to the 'inline' backend
 
-
 #accessing the dataset
 iris=pd.read_excel(r'path of the dataset')
 
 #printing the head and tail columns of the dataset
 print(iris.head())
 print(iris.tail())
-
-
 
 #heavy coding ----> moderate coding ----> no coding
 #Scatter plot using matplotlib 
@@ -94,6 +91,7 @@ sns.pairplot(iris)
 #Facetgrid using seaborn
 g=sns.FacetGrid(iris,col='Species_name')
 g=g.map(sns.kdeplot, 'Sepal_length')
+
 
 
 
