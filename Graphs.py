@@ -16,6 +16,7 @@ iris=pd.read_excel(r'path of the dataset')
 print(iris.head())
 print(iris.tail())
 
+
 #heavy coding ----> moderate coding ----> no coding
 #Scatter plot using matplotlib 
 fig,ax=plt.subplots()
