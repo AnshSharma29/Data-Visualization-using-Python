@@ -6,7 +6,6 @@ import matplotlib as mpl
 import matplotlib.pyplot as plt
 
 %matplotlib inline
-
 #%matplotlib inline sets the backend of matplotlib to the 'inline' backend
 
 #accessing the dataset
@@ -15,7 +14,6 @@ iris=pd.read_excel(r'path of the dataset')
 #printing the head and tail columns of the dataset
 print(iris.head())
 print(iris.tail())
-
 
 #heavy coding ----> moderate coding ----> no coding
 #Scatter plot using matplotlib 
