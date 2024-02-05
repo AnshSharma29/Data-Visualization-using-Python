@@ -28,7 +28,6 @@ d.open_browser()
 #import folium
 import folium
 
-
 # Coordinates for New York City
 latitude, longitude = 40.7128, -74.0060
 
